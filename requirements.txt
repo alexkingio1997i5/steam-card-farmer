@@ -1,0 +1,4 @@
+requests==2.32.3
+beautifulsoup4==4.12.3
+steam==1.4.4
+protobuf==4.25.3

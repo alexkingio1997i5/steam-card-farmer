@@ -32,3 +32,5 @@ If you have Steam Guard (2FA) enabled, the script will prompt you for the code.
 2. It fetches your Steam badges page via `httpx` to parse which games have card drops remaining.
 3. It sends a `games_played` packet to Steam for those AppIDs. Steam registers you as playing them, triggering the drop timer.
 4. Every 15 minutes, it checks your badges page again. Once a game has 0 drops left, it drops it from the active list and picks up the next one.
+
+<!-- checked: 2026-09-13 -->
